@@ -1,0 +1,177 @@
+[
+  [
+    {
+      "start": -50,
+      "end": -60,
+      "className": "ml-16 w-4/12"
+    },
+    {
+      "start": 0,
+      "end": -120,
+      "className": "ml-auto mr-24 w-5/12"
+    },
+    {
+      "start": 100,
+      "end": -100,
+      "className": "mx-auto w-6/12 mt-2"
+    },
+    {
+      "start": 150,
+      "end": -60,
+      "className": "ml-12 w-5/12"
+    },
+    {
+      "start": -100,
+      "end": -50,
+      "className": "ml-auto mr-20 w-4/12"
+    },
+    {
+      "start": 50,
+      "end": -90,
+      "className": "mx-auto w-3/12 mt-1"
+    }
+  ]
+  ,[
+    {
+      "id": 1,
+      "nombre": "Scripting",
+      "descripcion": "Concede la habilidad de crear scripts y flujos automatizados que ejecutan tareas con precisión inhumana.",
+      "advertencia": "Una línea mal escrita puede ser la diferencia entre la gloria y el desastre.",
+      "resources" :{
+        "videos": ["97so-hxBbFY", "wGfYTyIq1bc", "YtKCoPvACVY", "_laEEFdPX2s", "oLiwBXJQoDg", "Qnagf4K4Ju8"],
+        "novice": {
+          "platforms": ["https://www.hackthebox.com/", "https://play.picoctf.org/practice?category=2&page=1", "https://tryhackme.com/"],
+          "videos" : ["https://www.youtube.com/watch?v=XWuP5Yf5ILI", "https://www.youtube.com/watch?v=tK9Oc6AEnR4", "https://www.youtube.com/watch?v=brzMO-Vz5rU"],
+          "lectures": ["https://automatetheboringstuff.com/", "https://elhacker.info/manuales/Lenguajes%20de%20Programacion/Black%20Hat%20Bash.pdf"]
+        },
+        "intermediate":{
+          "platforms": ["https://www.hackthebox.com/", "https://play.picoctf.org/practice?category=2&page=1", "https://tryhackme.com/", "https://www.root-me.org/?lang=en"],
+          "videos" : ["https://www.youtube.com/watch?v=vq6wNGYzdDE", "https://www.youtube.com/watch?v=sQTGCs1DmrQ"],
+          "books": ["https://www.amazon.com/Black-Hat-Python-Python-Programming/dp/1593275900", "https://www.amazon.com/Violent-Python-Cookbook-"]
+        },
+          "advanced ": {}
+      }
+    },
+    {
+      "id": 2,
+      "nombre": "OSINT",
+      "descripcion": "Permite extraer información de fuentes abiertas, reconstruyendo verdades ocultas a partir de fragmentos dispersos.",
+      "advertencia": "El conocimiento es poder, pero también una carga. Ver demasiado puede cambiar tu percepción del mundo.",
+      "resources" :{
+        "videos": ["HrqYGTK8-bo", "sh7lmlmBsW0", "A_QzWX39T-E", "BsminzrQKHQ", "iNP0NNnQCHk", "R4PEwHsWdL0"],
+        "novice": {
+          "platforms": ["https://play.picoctf.org/practice?category=2&page=1", "https://www.hackthebox.com/"],
+          "videos" : ["https://www.youtube.com/watch?v=z9SarCViPFQ", "https://www.youtube.com/watch?v=qwA6MmbeGNo"],
+          "lectures": ["https://www.osintdojo.com/", "https://www.geoguessr.com/", "https://elhacker.info/manuales/Lenguajes%20de%20Programacion/Black%20Hat%20Bash.pdf"]
+        },
+        "intermediate":{
+          "platforms": ["https://www.hackthebox.com/", "https://play.picoctf.org/practice?category=2&page=1", "https://tryhackme.com/", "https://www.tracelabs.org/"],
+          "videos" : ["https://www.youtube.com/watch?v=vq6wNGYzdDE", "https://www.youtube.com/watch?v=avNmw4Kr2yk"],
+          "lectures": ["https://www.osintdojo.com/", "https://www.reddit.com/r/OSINT/"]
+        },
+          "advanced ": {}
+      }
+    },
+    {
+      "id": 3,
+      "nombre": "Forense Digital",
+      "descripcion": "Otorga la capacidad de reconstruir eventos pasados a partir de huellas digitales y recuperar datos eliminados.",
+      "advertencia": "El pasado no siempre quiere ser revelado. Prepárate para enfrentar la verdad.",
+      "resources" :{
+        "videos": ["dbKwngknixo", "6NcIbiKhIis", "Fr6d9JhS4u0", "JwvxlNsIiEI", "dcOMFYfVqqc", "DbgvDGtjkEA"],
+        "novice": {
+          "platforms": ["https://play.picoctf.org/", "https://www.hackthebox.com/", "https://www.dfir.training/"],
+          "videos" : ["https://www.youtube.com/watch?v=2s9JyChjUnA", "https://www.youtube.com/watch?v=3uoXRXcdiPs", "https://www.youtube.com/watch?v=JNIUeGMax-U"],
+          "lectures": ["https://www.softouch.on.ca/kb/data/Computer%20Forensics%20For%20Dummies.pdf", "https://csrc.nist.gov/pubs/sp/800/86/final"]
+        },
+        "intermediate":{
+          "platforms": ["https://www.hackthebox.com/", "https://play.picoctf.org/practice?category=2&page=1", "https://ctftime.org/", "https://www.tracelabs.org/"],
+          "videos" : ["https://www.youtube.com/watch?v=420mItn8bzo", "https://www.youtube.com/watch?v=mp1_aBzMq74"],
+          "lectures": ["https://github.com/volatilityfoundation/volatility/wiki", "https://forensics.wiki/"]
+        },
+          "advanced ": {}
+      }
+    },
+    {
+      "id": 4,
+      "nombre": "Web Exploitation",
+      "descripcion": "Permite infiltrarse en aplicaciones web, manipular flujos de datos y burlar restricciones de seguridad.",
+      "advertencia": "Las puertas que se abren con este poder pueden atraer la atención de quienes las protegen.",
+      "resources" :{
+        "videos": ["roG3r5tNWOU", "XNratwOrSiY", "1wD01P-DNeU", "2TV0gYiV2fM", "yZ2MRz52oU4", "GMCn-XB1k0M"],
+        "novice": {
+          "platforms": ["https://portswigger.net/web-security","https://play.picoctf.org/", "https://www.hackthebox.com/", "https://www.youtube.com/@CTFSchool"],
+          "videos" : ["https://www.youtube.com/watch?v=ik2p4Rz4QzM", "https://www.youtube.com/watch?v=B7tTQ272OHE"],
+          "lectures": ["https://0xpatrik.com/"]
+        },
+        "intermediate":{
+          "platforms": ["https://www.hackthebox.com/", "https://play.picoctf.org/practice?category=2&page=1", "https://ctftime.org/", "https://www.youtube.com/@CTFSchool"],
+          "videos" : ["https://www.youtube.com/watch?v=ZQjegyDF2Uk", "https://www.youtube.com/watch?v=dl9NVEPbqpc"],
+          "lectures": ["https://github.com/swisskyrepo/PayloadsAllTheThings"]
+        },
+          "advanced ": {}
+      }
+    },
+    {
+      "id": 5,
+      "nombre": "Pwn",
+      "descripcion": "Concede el poder de tomar el control de cualquier binario mediante la explotación de vulnerabilidades.",
+      "advertencia": "Este poder puede alterar el equilibrio digital. Úsalo con sabiduría.",
+      "resources" :{
+        "videos": ["BGIW6Vx3Mq8", "AD-iXWANggo", "wquix3Cxo70", "rgsIkZkflMw", "kvfnLvSbnhc", "E4ZWJsGySoY"],
+        "novice": {
+          "platforms": ["https://play.picoctf.org/", "https://www.hackthebox.com/", "https://www.dfir.training/"],
+          "videos" : ["https://www.youtube.com/watch?v=wquix3Cxo70", "https://www.youtube.com/watch?v=wa3sMSdLyHw"],
+          "lectures": ["https://liveoverflow.com/"]
+        },
+        "intermediate":{
+          "platforms": ["https://www.hackthebox.com/", "https://play.picoctf.org/practice?category=2&page=1", "https://ctftime.org/", "https://ropemporium.com/"],
+          "videos" : ["https://www.youtube.com/watch?v=420mItn8bzo", "https://www.youtube.com/watch?v=mp1_aBzMq74"],
+          "lectures": ["https://exploit.education/"]
+        },
+          "advanced ": {}
+      }
+    },
+    {
+      "id": 6,
+      "nombre": "Reversing",
+      "descripcion": "Permite descifrar y desmontar cualquier binario, entendiendo su lógica interna.",
+      "advertencia": "El software ya no tendrá secretos para ti… pero otros tampoco.",
+      "resources" :{
+        "videos": ["U4k5Upct680", "0_Eif2qGK7I", "k_VV_nceRE0", "bvyklJ5Wie0", "bshuAGkgY3M"],
+        "novice": {
+          "platforms": ["https://play.picoctf.org/", "https://www.hackthebox.com/", "https://www.dfir.training/"],
+          "videos" : ["https://www.youtube.com/watch?v=5FXrCHLAJZM", "https://www.youtube.com/watch?v=oTD_ki86c9I"],
+          "lectures": ["https://intezer.com/blog/malware-reverse-engineering-beginners/"]
+        },
+        "intermediate":{
+          "platforms": ["https://www.hackthebox.com/", "https://play.picoctf.org/practice?category=2&page=1", "https://ctftime.org/"],
+          "videos" : ["https://www.youtube.com/watch?v=oTD_ki86c9I", "https://www.youtube.com/watch?v=mp1_aBzMq74"],
+          "lectures": ["https://guidedhacking.com/"]
+        },
+          "advanced ": {}
+      }
+    },
+    {
+      "id": 7,
+      "nombre": "Criptografía",
+      "descripcion": "Otorga la capacidad de cifrar y descifrar mensajes, asegurando o quebrando la seguridad digital.",
+      "advertencia": "El poder de la criptografía protege, pero también puede ser una llave para lo prohibido.",
+      "resources" :{
+        "videos": ["9HkvH1D4CH4", "8AhAL1JRctY", "NuyzuNBFWxQ", "jhXCTbFnK8o", "Yjrfm_oRO0w"],
+        "novice": {
+          "platforms": ["https://play.picoctf.org/", "https://www.hackthebox.com/", "https://www.dfir.training/"],
+          "videos" : ["https://www.youtube.com/watch?v=SuZamRG2da4", "https://www.youtube.com/watch?v=SVSw3Yg5JHQ", "https://www.youtube.com/watch?v=b64F7gaoyis"],
+          "lectures": ["https://www.cryptool.org/en/", "https://cryptohack.org/"]
+        },
+        "intermediate":{
+          "platforms": ["https://www.hackthebox.com/", "https://play.picoctf.org/practice?category=2&page=1", "https://ctftime.org/"],
+          "videos" : ["https://www.youtube.com/watch?v=EJb3lSsxe-Y", "https://www.youtube.com/watch?v=mp1_aBzMq74", "https://www.youtube.com/watch?v=Yjrfm_oRO0w"],
+          "lectures": ["https://cryptopals.com/"]
+        },
+          "advanced ": {}
+      }
+    }
+  ]
+  ]
+  
