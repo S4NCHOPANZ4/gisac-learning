@@ -11,7 +11,7 @@ const ViewLink = ({url = "cYuq9ulr8U0", title ="Title"}) => {
   useEffect(() => {
     setLoading(true);
     
-    fetch(`http://localhost:3030/tnv1/tn/${url})}`)
+    fetch(`https://gisac-learning-jlsr.vercel.app/tnv1/tn/${url})}`)
       .then((res) => res.json())
       .then((data) => {
         setVidData({...data.data})
