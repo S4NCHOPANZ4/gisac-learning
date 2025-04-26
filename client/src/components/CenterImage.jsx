@@ -1,6 +1,6 @@
 import React from "react";
 import { motion, useMotionTemplate, useScroll, useTransform } from "framer-motion";
-import img from "../assets/bg.jpg";
+// import img from "../assets/bg.jpg";
 
 const CenterImage = () => {
   const { scrollY } = useScroll();

@@ -3,12 +3,12 @@
     {
       "start": -50,
       "end": -60,
-      "className": "ml-16 w-4/12"
+      "className": "ml-56 w-4/12"
     },
     {
       "start": 0,
       "end": -120,
-      "className": "ml-auto mr-24 w-5/12"
+      "className": "ml-auto mr-2 w-5/12"
     },
     {
       "start": 100,
@@ -18,12 +18,12 @@
     {
       "start": 150,
       "end": -60,
-      "className": "ml-12 w-5/12"
+      "className": "ml-52 w-5/12"
     },
     {
       "start": -100,
       "end": -50,
-      "className": "ml-auto mr-20 w-4/12"
+      "className": "ml-auto mr-1 w-4/12"
     },
     {
       "start": 50,

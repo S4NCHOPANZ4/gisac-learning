@@ -1,6 +1,6 @@
 import React, { useCallback, useState } from "react";
 import { motion } from "framer-motion";
-import backImg from "../assets/backcard.png";
+import backImg from "../assets/backcard.webp";
 
 const FlipCard = ({ image, onClick }) => {
   const [flipped, setFlipped] = useState(false);
