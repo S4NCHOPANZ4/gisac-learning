@@ -45,7 +45,7 @@ const FlipCard = ({ image, onClick }) => {
           </div>
 
           <div
-            className="absolute w-full h-full bg-red-500 text-white flex items-center justify-center rounded-lg shadow-lg"
+            className="absolute w-full h-full bg-gray-100 text-white flex items-center justify-center rounded-lg shadow-lg"
             style={{ backfaceVisibility: "hidden", transform: "rotateY(180deg)" }}
             onClick={() => console.log("Reverso clickeado")}
           >
